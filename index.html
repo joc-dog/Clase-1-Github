@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Numero!!!</title>
+    <link rel="stylesheet" href="adivinar.css">
+</head>
+<body>
+
+    <h1>Adivina el Número!!! entre 0 y 100</h1>
+    
+    <input type="number" id="inputNumber" required />
+    <br>
+    <button onclick="guessNumber()" id="guess" class="">Adivinar</button>
+    
+    <button onclick="tryAgain()" id="star" class="hidden">Intentar otra vez!</button>
+    
+    <br><br>
+    <div id="messages" class="messages"></div>
+    <br><br>
+    <div id="attempts" class="attempts"></div>
+    
+    <script src="adivinar.js"></script>
+</body>
+</html>
