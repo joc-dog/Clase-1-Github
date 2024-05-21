@@ -1,0 +1,131 @@
+body {
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+.box-header {
+  /*width: 940px;*/
+  margin: auto;
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/*.box-content {
+  display:flex;
+  justify-content: center;
+}*/
+
+.banner {
+ /* width: 940px;*/
+  height: 250px;
+  background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%), url("../public/banner.webp");
+  background-size: cover;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-titulo {
+  font-size: 36px;
+  text-align: center;
+}
+
+.banner-subtitulo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.gallery-paris, .gallery-berlin {
+  /* width: 800px; */
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-paris h1, .gallery-berlin h1 {
+  margin: 0px;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.gallery-paris h3, .gallery-berlin h3 {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.gallery-paris-pics, .gallery-berlin-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-paris-pics div, .gallery-berlin-pics div {
+  width: 180px;
+  height: 200px;
+}
+
+/*PARIS*/
+.gallery-paris-pics .pic1 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-paris-pics .pic2 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-paris-pics .pic3 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-paris-pics .pic4 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+/*BERLIN*/
+.gallery-berlin-pics .pic1 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-berlin-pics .pic2 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-berlin-pics .pic3 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+.gallery-berlin-pics .pic4 {
+  background-image: url('../public/prueba1.webp');
+  background-size: cover;
+}
+
+/*FOOTER*/
+.box-footer {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box-footer h3 {
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
