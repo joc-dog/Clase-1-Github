@@ -48,15 +48,15 @@ body {
   justify-content: center;
 }
 
-.gallery-paris h1, .gallery-berlin h1 {
+h1 {
+  margin: 0px;
+  font-size: 15px;
+}
+
+h3 {
   margin: 0px;
   font-size: 26px;
   padding-bottom: 20px;
-}
-
-.gallery-paris h3, .gallery-berlin h3 {
-  margin: 0px;
-  font-size: 15px;
 }
 
 .gallery-paris-pics, .gallery-berlin-pics {
@@ -67,29 +67,20 @@ body {
 }
 
 .gallery-paris-pics div, .gallery-berlin-pics div {
-  width: 180px;
-  height: 200px;
+  /*width: 180px;
+  height: 200px;*/
 }
 
 /*PARIS*/
-.gallery-paris-pics .pic1 {
-  background-image: url('../public/prueba1.webp');
+.gallery-paris-pics .pic {
+  /*background-image: url('../public/prueba1.webp');
   background-size: cover;
+  border: 1px solid #18c11d;*/
+  text-align: center;
 }
 
-.gallery-paris-pics .pic2 {
-  background-image: url('../public/prueba1.webp');
-  background-size: cover;
-}
-
-.gallery-paris-pics .pic3 {
-  background-image: url('../public/prueba1.webp');
-  background-size: cover;
-}
-
-.gallery-paris-pics .pic4 {
-  background-image: url('../public/prueba1.webp');
-  background-size: cover;
+.gallery-paris-pics .title {
+  font-size: 14px;
 }
 
 /*BERLIN*/
