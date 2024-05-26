@@ -4,14 +4,13 @@ function Details(props) {
   // Recuerda que este es solo un componente funcional, 
   // tu debes incluir estilos para hacerlo más atractivo
   return (
-    <div>
+    <>
         <p>
-          <b>Genero:</b> {props.genre}
+          <b>Genero:</b> {props.genre}<br></br>
+          <b>Estado:</b> {props.status}<br></br>
+          <b>Personajes</b>
         </p>
-        <p>
-          <b>Estado:</b> {props.status}
-        </p>
-    </div>
+    </>
   );
 }
 export default Details;
