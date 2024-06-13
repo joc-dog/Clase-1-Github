@@ -40,6 +40,11 @@ body {
   text-align: center;
 }
 
+.imgGrip {
+  border-radius: 50%;
+  border: 4px solid rgb(73, 73, 73);
+}
+
 .gallery-paris, .gallery-berlin {
   /* width: 800px; */
   margin: auto;
@@ -240,4 +245,15 @@ button.anterior:hover {
   text-align: center; /* Centra el texto horizontalmente */
   margin: 10px 0; /* Ajusta los márgenes superior e inferior */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade una sombra al texto */
+}
+
+input {
+  width: 80%;
+  padding: 10px; /* Ajusta el padding según tus necesidades */
+  margin-bottom: 20px; /* Espacio en la parte inferior */
+  font-size: 1.5rem; /* Tamaño del texto aumentado */
+  box-sizing: border-box;
+  display: block; /* Asegura que el input se comporte como un bloque */
+  margin-left: auto; /* Auto margen en la izquierda */
+  margin-right: auto; /* Auto margen en la derecha */
 }
